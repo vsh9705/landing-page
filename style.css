@@ -165,11 +165,15 @@ body{
 
 }
 
-
-
-
-
-
+.footer{
+   display: flex;
+   background-color: #1f2937;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #e5e7eb;
+}
 
 ul{
     display: flex;
