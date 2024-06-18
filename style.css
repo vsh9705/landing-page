@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
-
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -66,7 +65,36 @@ body{
         font-weight: bold;
         color: #f9faf8;
     }
-    
+}
+
+.second{
+    padding: 70px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .header-2{
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 36px;
+        color: #1f2937;
+    }
+
+    .stuff-2{
+        padding-left: 175px;
+        padding-right: 175px;
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    img{
+        border: #3882f6 solid 3px;
+        border-radius: 6px;
+    }
 }
 
 
